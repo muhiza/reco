@@ -25,4 +25,6 @@ urlpatterns = [
 	# On loading more services to one page and filter them
 
 	url(r'^all_services$', views.all_services, name="all_services"),
+
+	#url(r'^category/(?P<wine_id>[0-9]+)/$', views.business_category, name='business_category'),
 ]

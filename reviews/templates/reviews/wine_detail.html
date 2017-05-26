@@ -27,17 +27,16 @@
 <div class="panel panel-default" style="height: 300px;">
  <div class="panel-heading">
  <h3>
- {{ wine.name }}
+ {{ wine.title }}
  </h3>
 <h6>{{ wine.review_set.count }} Reviews</h6>
  </div>
  <div class="panel-body">
    <ul class="sidebar-nav">
-    <li><b> <i class="fa fa-map"></i>Location:</b> Muhiza</li>
+    <li><b> <i class="fa fa-map"></i>Location:</b> {{ wine.location }}</li>
     <li><b><i class="fa fa-time"></i>Working Hours: </b>12h-25h </li>
-    <li><b><i class="fa fa-telephone"></i>Phone Number:</b> 123456</li>
-    <li><b><i class="fa fa-envelop "></i>Email: </b>Muhiza@gmail.com</li>
-    <p><strong>Type:</strong> Waka</p>  
+    <li><b><i class="fa fa-telephone"></i>Phone Number:</b> 0786012383</li>
+    <li><b><i class="fa fa-envelop "></i>Email: </b> info@business.com</li>
   </ul>
  </div>
 </div>

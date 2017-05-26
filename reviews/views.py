@@ -76,3 +76,12 @@ def user_review_list(request, username=None):
 
 def related_products(request):
 	related = Wine.objects.filter
+
+
+"""
+def business_category(request, wine_id):
+	business_category_list = Wine.objects.filter(wine_type="red", pk=wine_id)
+	context = {"business_category_list": business_category_list }
+	return render(request, 'reviews/business_category.html', context)
+
+"""
